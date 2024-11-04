@@ -1,0 +1,27 @@
+.navigation {
+    background-color: #333; /* Color de fondo */
+    padding: 1rem; /* Espaciado interno */
+}
+
+.nav-list {
+    list-style-type: none; /* Quitar puntos de la lista */
+    display: flex; /* Mostrar los elementos en línea */
+    justify-content: space-around; /* Espaciado entre los elementos */
+    margin: 0; /* Quitar márgenes */
+    padding: 0; /* Quitar relleno */
+}
+
+.nav-item {
+    margin: 0 10px; /* Espaciado entre los elementos */
+}
+
+.nav-link {
+    color: white; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado */
+    font-weight: bold; /* Negrita */
+    transition: color 0.3s; /* Transición suave para el hover */
+}
+
+.nav-link:hover {
+    color: #ff6347; /* Color al pasar el mouse */
+}
